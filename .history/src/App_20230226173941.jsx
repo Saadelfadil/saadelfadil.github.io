@@ -9,7 +9,6 @@ function App() {
     <div>
       <Sidenave />
       <Main />
-      <Projects />
     </div>
   )
 }

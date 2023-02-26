@@ -23,7 +23,7 @@ const Main = () => {
                         style={{ fontSize: '1em', paddingLeft: "5px" }}
                     />
                 </h2>
-                <div className="flex justify-between pt-6 max-w-[150px] w-full">
+                <div>
                         <FaInstagram size={20} className="cursor-pointer"/>
                         <FaLinkedin size={20} className="cursor-pointer"/>
                         <FaGithub size={20} className="cursor-pointer"/>
