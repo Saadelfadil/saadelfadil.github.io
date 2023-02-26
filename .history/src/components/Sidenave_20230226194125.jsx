@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject } from "react-icons/ai"
 import { GrProjects } from "react-icons/gr"
 import { BsPerson } from "react-icons/bs"
-import resume from "../assets/saadelfadilcv.pdf"
 
 const Sidenave = () => {
     const [nav, setNav] = useState(false)
@@ -21,11 +20,15 @@ const Sidenave = () => {
                         <AiOutlineHome size={20}/>
                         <span className="pl-4">Home</span>
                     </a>
+                    <a onClick={handleNav} href="#work" className="w-[75%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+                        <GrProjects size={20}/>
+                        <span className="pl-4">Work</span>
+                    </a>
                     <a onClick={handleNav} href="#projects" className="w-[75%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
                         <AiOutlineProject size={20}/>
                         <span className="pl-4">Projects</span>
                     </a>
-                    <a href={resume} download="Saad_Elfadil_CV" className="w-[75%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+                    <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:bg-black">
                         <BsPerson size={20}/>
                         <span className="pl-4">Resume</span>
                     </a>
@@ -42,10 +45,13 @@ const Sidenave = () => {
                 <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 ">
                     <AiOutlineHome />
                 </a>
+                <a href="#work" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 ">
+                    <GrProjects />
+                </a>
                 <a href="#projects" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 ">
                     <AiOutlineProject />
                 </a>
-                <a href={resume} download="Saad_Elfadil_CV" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 ">
                     <BsPerson />
                 </a>
                 <a href="#contact" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 ">

@@ -2,7 +2,7 @@ import './App.css'
 import Sidenave from './components/Sidenave'
 import Main from './components/Main'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Contact from ""
 
 function App() {
 
@@ -11,7 +11,6 @@ function App() {
       <Sidenave />
       <Main />
       <Projects />
-      <Contact />
     </div>
   )
 }

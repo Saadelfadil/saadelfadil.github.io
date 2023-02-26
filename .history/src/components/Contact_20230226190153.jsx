@@ -6,14 +6,14 @@ const Contact = () => {
         <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
             Contact
         </h1>
-        <form action="https://getform.io/f/5e02e94f-c570-4992-beb9-ed5960cea7ca" method="POST" encType="multipart/form-data" >
+        <form action="" method="POST" encType="multipart/form-data" >
             <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                 <div className="flex flex-col">
                     <label className="uppercase text-sm py-2" htmlFor="">Name</label>
                     <input className="border-2 rounded-lg p-3 flex border-gray-200 " type="text" name="name" />
                 </div>
                 <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2" htmlFor="">Phone</label>
+                    <label className="uppercase text-sm py-2" htmlFor="">Phone Number</label>
                     <input className="border-2 rounded-lg p-3 flex border-gray-200 " type="text" name="phone" />
                 </div>
             </div>

@@ -24,11 +24,13 @@ const Main = () => {
                     />
                 </h2>
                 <div className="flex justify-between pt-6 max-w-[150px] w-full">
-                        <a href="https://instagram.com/saadelfadilsaad" target="_blank">
-                            <FaInstagram href="" size={20} className="cursor-pointer"/>
+                        <a href="https://github.com/Saadelfadil" target="_blank">
+
+                        <FaInstagram href="" size={20} className="cursor-pointer"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/saadelfadil?original_referer=" target="_blank">
-                            <FaLinkedin href="" size={20} className="cursor-pointer"/>
+                        <a href="https://github.com/Saadelfadil" target="_blank">
+
+                        <FaLinkedin href="" size={20} className="cursor-pointer"/>
                         </a>
                         <a href="https://github.com/Saadelfadil" target="_blank">
                             <FaGithub size={20} className="cursor-pointer"/>

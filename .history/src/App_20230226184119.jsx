@@ -11,7 +11,6 @@ function App() {
       <Sidenave />
       <Main />
       <Projects />
-      <Contact />
     </div>
   )
 }
